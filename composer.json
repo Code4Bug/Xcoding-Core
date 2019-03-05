@@ -18,5 +18,6 @@
     "require": {
         "php": ">=7.0"
     },
-    "version": "0.1"
+    "version": "0.1",
+    "suggests": "Suggest not to use during dev"
 }
