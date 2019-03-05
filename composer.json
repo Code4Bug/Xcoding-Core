@@ -9,6 +9,11 @@
             "email": "1138555063@qq.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Xcoding\\Core\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
