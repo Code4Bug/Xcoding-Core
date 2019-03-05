@@ -18,7 +18,6 @@ class App
 
     public function run()
     {
-        $env = $this->env->get("REQUEST_URI");
-        var_dump($env);
+        var_dump("HELLO");
     }
 }

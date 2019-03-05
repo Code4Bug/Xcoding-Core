@@ -12,6 +12,7 @@ namespace root;
 use Xcoding\Core\Container;
 use Xcoding\Core\Loader;
 
+require 'autoload.php';
 require 'src/Container.php';
 require 'src/Loader.php';
 require 'src/App.php';
@@ -23,4 +24,4 @@ Loader::addMap([
 
 $container = Container::getInstance();
 $app = $container->get('app');
-var_dump($app);
+$app->run();
