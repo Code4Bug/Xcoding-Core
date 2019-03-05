@@ -17,7 +17,7 @@ class Env
         $this->env=$_SERVER;
     }
 
-    public function get($key)
+    public function get($key=null)
     {
         return $key ? $this->env[$key] : $this->env;
     }
