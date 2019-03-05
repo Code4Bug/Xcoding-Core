@@ -1,0 +1,14 @@
+{
+    "name": "xcoding/core",
+    "description": "Xcoding core code",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edward",
+            "email": "1138555063@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
