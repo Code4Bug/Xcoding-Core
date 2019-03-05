@@ -19,11 +19,13 @@ use ArrayAccess;
 class Container
 {
     public static $instance = null;
-    private $binding = [];
+    public $binding = [];
     private $instances = [];
+    private $map = [];
 
     private function __construct()
     {
+        $this->binding = Loader::getMap();
     }
 
     public static function getInstance()
