@@ -6,7 +6,7 @@
  * Time: 上午 10:36
  */
 
-namespace Xcoding;
+namespace Xcoding\Core;
 
 use Exception;
 use ReflectionMethod;
