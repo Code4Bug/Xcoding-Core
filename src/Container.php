@@ -99,7 +99,7 @@ class Container
         if (key_exists($abstract, $this->instances)) return $this->instances[$abstract];
     }
 
-    public function make($abstract, $params=null, $share=false)
+    private function make($abstract, $params=null, $share=false)
     {
 //        var_dump($abstract);die;
         $instance = $this->invokeClass($this->binding[$abstract], $params);
