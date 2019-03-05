@@ -19,9 +19,8 @@ use ArrayAccess;
 class Container
 {
     public static $instance = null;
-    public $binding = [];
-    public $instances = [];
-    public $map = [];
+    private $binding = [];
+    private $instances = [];
 
     private function __construct()
     {
