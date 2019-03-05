@@ -8,7 +8,6 @@
 
 namespace Xcoding\Core;
 
-
 class Env
 {
     private $env;
