@@ -18,6 +18,9 @@
     "require": {
         "php": ">=7.0"
     },
-    "version": "0.1",
+    "require-dev": {
+        "workerman": ">3.0"
+    },
+    "version": "1.0",
     "suggests": "Suggest not to use during dev"
 }
